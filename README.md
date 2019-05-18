@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    An adaptive website is related to using server logic to send out different HTML. Uses both breakpoints and responsive units, but layout can be hard coded with widths, while a fully responsive website makes designs based on the currently available screen width. As it changes we can stack content or put it side by side. The content will fill its environment.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    To be mobile first means it will not be contrained by a mobile queuerie. We need to put our mobile styles first. Then we have to layer our CSS backwards, you have to start with smaller numbers (width and such) and then go up because we are starting on a smaller screen (phone) then moving to a big screen (desktop)
+ 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    This means we can define a single font size in the HTML and define all rem units to be a percentage of that inital size. By setting the html element to 62.5% it sets the default font size to 10 pixels, thus making a unit like 1.6rem equal 16 pixels.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    I would describe it as a way to write cleaner and more concise code. It adds the ability to create variables and things like functions, methods etc, even array type objects. To explain it to a student or someone with zero coding backgroung or experience, I would explain it with an analogy saying its similar to Microsoft Word over notepad. They can both get the job done, but Microsoft Word is so much easier to write and format what you’re working on.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    My favorite concept so far has been nesting with less. To me, it makes the most sense, almost like your writing an outline for an essay and that logically makes coding so much easier! The concept that gives me the most trouble would have to be mixins and variables. They took me the longest to understand but now that I get it, its smooth sailing, but before it "clicks" those gave me the most trouble.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
